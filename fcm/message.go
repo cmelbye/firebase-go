@@ -82,7 +82,7 @@ type Message struct {
 	//
 	// For more information about Notification Service app extensions, see the
 	// documentation at: https://developer.apple.com/reference/usernotifications/unnotificationserviceextension
-	MutableContent bool `json:"mutableContent,omitempty"`
+	MutableContent bool `json:"mutable_content,omitempty"`
 
 	// TimeToLive specifies how long (in seconds) the message should be kept
 	// in FCM storage if the device is offline. The maximum time to live
